@@ -1,4 +1,4 @@
-package com.rajeev.StaticEXample;
+package com.rajeev.staticexample;
 
 //This is the demo to show instantiation of static variables
 public class StaticBlock {

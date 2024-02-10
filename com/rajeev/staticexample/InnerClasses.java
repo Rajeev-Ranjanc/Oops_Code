@@ -1,4 +1,4 @@
-package com.rajeev.StaticEXample;
+package com.rajeev.staticexample;
 
 public class InnerClasses {
      static class Test{

@@ -1,4 +1,4 @@
-package com.rajeev.Singleton;
+package com.rajeev.singleton;
 
 public class single_ton {
     private single_ton() {

@@ -1,4 +1,4 @@
-package com.rajeev.Singleton;
+package com.rajeev.singleton;
 
 public class Main {
     public static void main(String[] args) {
