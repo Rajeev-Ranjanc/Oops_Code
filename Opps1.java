@@ -1,6 +1,6 @@
 //First Lecture Oops in java
 //Classes, Objects, Constructors, New & this Keyword
-class Student {
+class Student1 {
     int roll;
     String name;
     float marks;
@@ -15,7 +15,7 @@ class Student {
 //        this.marks = 89.9f;
 //    }
 
-    Student() {
+    Student1() {
 //        this is how we call a constructor from another constructor
 //        internally this is like new Student(12 , "default person" , 100.0f);
         this(12, "default person", 100.0f);
@@ -25,13 +25,13 @@ class Student {
     //Student rahul = new Student();
     //then this keyword will replace by the rahul it will like what
     //rahul.name, rahul.roll, rahul.marks
-    Student(int rollnumber, String naam, float markskitneaayehain) { //Constructor Overloading
+    Student1(int rollnumber, String naam, float markskitneaayehain) { //Constructor Overloading
         this.name = naam; // this.name will treat compiler by rajeev.name and same as further variables
         this.roll = rollnumber;
         this.marks = markskitneaayehain;
     }
 
-    Student(Student other) {
+    Student1(Student1 other) {
         this.name = other.name;
         this.marks = other.marks;
         this.roll = other.roll;
@@ -40,11 +40,11 @@ class Student {
 
 public class Opps1 {
     public static void main(String[] args) {
-        Student rajeev = new Student();
+        Student1 rajeev = new Student1();
 //        Student priya = new Student(75 , "Priya Yadav" , 88);
-        Student other = new Student(rajeev);
+        Student1 other = new Student1(rajeev);
 
-        Student defultname = new Student();
+        Student1 defultname = new Student1();
         System.out.println(defultname.name);
 
 //        System.out.println(other.roll);
